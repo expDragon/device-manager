@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>closeButton.png</file>
+        <file>closeButtonHover.png</file>
+        <file>disableDeviceButton.png</file>
+        <file>disableDeviceButtonHover.png</file>
+        <file>enableDeviceButton.png</file>
+        <file>enableDeviceButtonHover.png</file>
+    </qresource>
+    <qresource prefix="/qss">
+        <file>stylesheet.qss</file>
+    </qresource>
+</RCC>

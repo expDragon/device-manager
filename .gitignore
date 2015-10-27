@@ -73,3 +73,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+devicemanagercontroller.h.autosave
+*.autosave

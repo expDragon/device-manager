@@ -1,0 +1,130 @@
+QMainWindow {
+    min-width: 1024px;
+    min-height: 768px;
+    border: 1px solid #283593;
+    background: #FFFFFF;
+}
+
+QScrollBar:vertical {
+    background-color: #E8EAF6;
+    border: none;
+    outline: none;
+}
+
+QScrollBar::handle:vertical {
+    background: #C5CAE9;
+    min-width: 20px;
+}
+
+QWidget {
+    font-family: "Calibri";
+    font-size: 18px;
+}
+
+QTableWidget {
+    border: none;
+}
+
+QTableWidget::item {
+    selection-background-color: #C5CAE9;
+    selection-color: black;
+}
+
+QHeaderView::section {
+    background-color: #E8EAF6;
+    border: none;
+    padding: 5px;
+}
+
+QListWidget {
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+#header {
+    background-color: #283593;
+}
+
+#header QLabel {
+    padding-left: 20px;
+    padding: 5px;
+    font-family: "Calibri Light";
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+
+#header QPushButton {
+    min-width: 36px;
+    max-width: 36px;
+    min-height: 36px;
+    max-height: 36px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    margin-right: 18px;
+}
+
+#close-button {
+    border-image: url(:/img/closeButton.png);
+}
+
+#close-button:hover {
+    border-image: url(:/img/closeButtonHover.png);
+}
+
+#disable-device-button {
+    border-image: url(:/img/disableDeviceButton.png);
+}
+
+#disable-device-button:hover {
+    border-image: url(:/img/disableDeviceButtonHover.png);
+}
+
+#enable-device-button {
+    border-image: url(:/img/enableDeviceButton.png);
+}
+
+#enable-device-button:hover {
+    border-image: url(:/img/enableDeviceButtonHover.png);
+}
+
+
+CollapseListWidget {
+    min-width: 500px;
+    max-width: 500px;
+    border: 0px;
+}
+
+CollapseWidget QListWidget::item {
+    border: 0px;
+    padding: 10px;
+}
+
+#collapse-widget-collapsed QWidget:hover {
+    background: #E8EAF6;
+}
+
+#collapse-widget-expanded QListWidget::item {
+    background-color: #E8EAF6;
+}
+
+#collapse-widget-expanded QListWidget::item:hover {
+    background: solid #C5CAE9;
+}
+
+#collapse-widget-expanded QListWidget::item:selected {
+    background: #3F51B5;
+    color: #FFFFFF;
+}
+
+#collapse-widget-header {
+    background: #FFFFFF;
+    border: 0px;
+    min-height: 48px;
+}
+
+#collapse-widget-expanded #collapse-widget-header {
+    background-color: #7986CB;
+    color: #FFFFFF;
+}
